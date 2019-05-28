@@ -8,6 +8,7 @@ def second_challenge
 
   #code your solution here!
 items = []
-groceries.each do |key, value|
-  items.push(key.values)
+groceries.collect { |a, b| items << b}
+items.flatten
 end
+
