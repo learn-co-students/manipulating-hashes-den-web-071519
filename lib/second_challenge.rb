@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+items = []
+groceries.each do |key, value|
+  items.push(key.values)
 end
